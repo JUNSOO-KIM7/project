@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+	background-image: url('../img/3.jpg');
+	background-repeat: no-repeat;
+	background-size: 105% 800px;
+}
+
+/*=========== div0 검은바탕 ===========*/
+.div0 {
+  height: 20px;
+  background-color: black;
+
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+	/*border-style: dotted;*/
+	height : 100px;
+	
+	display : flex; /* 가로 나열*/
+	align-items: center; /* 위아래 정렬*/
+
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+
+	font-size: 40px;
+ 	font-weight: bold;
+ 	
+ 	color: white; 
+}
+
+/*=========== main ===========*/
+.main {
+	display : flex;
+
+	margin:10px;
+	height: 630px;
+
+}
+
+.main1 {
+	
+	width: 200px;
+
+	background-image: url('../img/4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	color: black;
+}
+.main2 {
+	/*border-style: dotted;*/
+	width: 1000px;
+}
+.top-title {
+	/*border-style: dotted;*/
+
+	width:800px;
+	margin:0 auto;
+	margin-top: 20px;
+
+
+	font-size: 40px;
+  	text-align: center;
+  	color: white; 
+}
+
+.bottom-title {
+	background-color: black;
+	color: white;
+
+	margin:0 auto;
+
+	width: 650px;
+
+	text-align: center;
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white; 
+}
+
+
+img {
+	width: 20px;
+	height: 20px;
+	border-radius: 70%;
+}
+
+.links {
+	border-style: dotted;
+
+	display : flex;
+	margin: 0 auto;
+
+	width:300px;
+	height: 100px;
+	text-align: center;
+	align-items: center;
+}
+.link_join {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+}
+.link_x {
+	
+	width: 100px;
+	height: 100px;
+}
+.link_login {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+}
+
+.main3 {
+	
+	width: 200px;
+
+	background-image: url('../img/7.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: black;
+
+	text-align: right;
+}
